@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F2C3863A-47A7-49AC-9699-0861A79132D3</title>
+    <defs>
+        <polygon id="path-1" points="4.49573621 7.79875096 2.44358845 5.48853663 1 7.08565995 4.49573621 11 12 2.59712332 10.5626651 1"></polygon>
+    </defs>
+    <g id="🔥-Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-1012.000000, -510.000000)">
+            <g id="check-green_s" transform="translate(1012.000000, 510.000000)">
+                <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" opacity="0" x="0" y="0" width="12" height="12"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#81B346" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

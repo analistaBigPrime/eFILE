@@ -1,0 +1,8 @@
+<svg width="17" height="16" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M8 5.09 4.15 8.73a.666.666 0 0 0 0 .968l.013.014c.28.264.718.264.998 0L8 7.035l2.839 2.676c.28.264.718.264.998 0l.014-.014a.666.666 0 0 0 0-.968L8 5.09z" id="a"/>
+    </defs>
+    <g transform="translate(.75)" fill="none" fill-rule="evenodd">
+        <use fill-opacity=".7" fill="#919ca7" transform="rotate(90 8.036 7.684)" xlink:href="#a"/>
+    </g>
+</svg>

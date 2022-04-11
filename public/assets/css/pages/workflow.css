@@ -1,0 +1,237 @@
+.page__workflow .page__title {
+    background-image: url(../../img/pages/workflow/page__title.svg);
+}
+.workflow__form {
+	margin: 16px 0 24px;
+	display: inline-block;
+}
+.workflow__form .select_wrap {
+    display: block;
+    float: left;
+}
+.workflow__form .select_wrap .default_option {
+    border-radius: 4px 0 0 4px;
+    min-width: 225px;
+	box-sizing: border-box;
+}
+.workflow__label {
+	display: block;
+	font-size: 14px;
+}
+.workflow__form .input__search {
+    display: block;
+    float: left;
+	width: 225px;
+	border-radius: 0;
+	margin: 0;
+	border-left: 0;
+	box-sizing: border-box;
+}
+.workflow__search {
+	border-left: 1px solid #bac2c8 !important;
+	border-radius: 4px 0 0 4px !important;
+}
+.workflow__form .input__search-btn {
+	background-color: #81b346;
+	border-radius: 0 4px 4px 0;
+    display: block;
+    float: left;
+    position: relative;
+    padding-right: 40px;
+    width: auto !important;
+    font-weight: bold;
+}
+.workflow__date {
+	width: 100%;
+    display: block;
+    clear: both;
+    padding-top: 16px;
+}
+.workflow__check {
+	float: left;
+	margin-right: 24px;
+	padding-top: 8px;
+}
+.workflow__calendar {
+	width: 330px !important;
+}
+.workflow__btn {
+	width: 38px;
+	height: 38px;
+	border: 1px solid #dfe3e5;
+	border-radius: 4px;
+	display: inline-block;
+}
+.workflow__btn_ico_view {
+    background: url(../../img/pages/workflow/workflow__btn_ico_view.svg) 50% 50% no-repeat;	
+}
+.workflow__table-check {
+	font: 12px/16px 'Noto Sans';
+	color: #171d25;
+}
+.workflow__sing {
+	margin: 16px 0;
+	float: right;
+}
+.workflow__submit {
+	float: right;
+	margin-bottom: 24px;
+	width: auto !important;
+}
+.workflow__form-template,
+.workflow__edit {
+	width: 80%;
+	display: block;
+	margin: 24px auto;
+}
+.workflow__submit {
+	width: auto;
+}
+.workflow__form-links {
+	display: block;
+	margin: 24px 0;
+}
+.workflow__form-links a {
+	border-bottom: 1px dotted #117dce;
+	text-decoration: none;
+	margin-right: 40px;
+	display: inline-block;
+}
+.workflow__edit-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.workflow__edit-list li {
+	margin-bottom: 16px;
+}
+.workflow__doc-link {
+	line-height: 40px;
+	margin-right: 24px;
+}
+.workflow__form-confirm {
+	margin: 24px auto 0;
+	width: 80%;
+}
+.remove-row {
+	display: none;
+}
+#add .select_wrap {
+	width: 100%;
+}
+#add tbody tr:last-child .remove-row {
+	display: block;
+}
+.remove-row {
+    background: url(../../img/pages/workflow/workflow__btn_ico_remove.svg) 50% 50% no-repeat;	
+}
+.workflow__doc {
+	display: flex;
+	margin: 24px 0;
+}
+.workflow__doc-col {
+	margin-right: 24px;
+}
+.workflow__doc-viewport {
+	overflow-y: scroll;
+	overflow-x: auto;
+	height: 800px;
+}
+.workflow__doc-form {
+	margin-top: 32px;
+}
+.workflow__doc-form .error,
+.workflow__doc-form .input__error .error {
+    display: none;
+}
+.workflow__doc-form .input {
+	position: relative;
+}
+.workflow__doc-form input[type="text"] {
+	padding-right: 48px;
+	position: relative;
+	z-index: 1;
+}
+.workflow__doc-form .input_with_btn input[type="text"] {
+	padding-right: 12px;
+}
+.workflow__doc-form .input__error input[type="text"],
+.workflow__doc-form .input__error input[type="text"]:focus {
+    border: 1px solid #bac2c8;
+    background-color: #fff;
+}
+.workflow__form-upload {
+	width: 80%;
+	margin: 0 auto 24px;
+}
+.workflow__form-upload-sep {
+	height: 1px;
+	display: block;
+	width: 100%;
+	background: #dfe3e5;
+	margin: 40px 0 32px;
+}
+.workflow__doc-form .input__error::after,
+.workflow__doc-form .input__success::after {
+	position: absolute;
+	content: '';
+	right: 8px;
+	top: 0;
+	width: 24px;
+	height: 40px;
+	z-index: 10;
+}
+.workflow__doc-form .input__error::after {
+	background: url(../../img/pages/workflow/workflow__input-error.svg) 50% 50% no-repeat;
+}
+.workflow__doc-form .input__success::after {
+	background: url(../../img/pages/workflow/workflow__input-success.svg) 50% 50% no-repeat;
+}
+.workflow__form-edit {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #fafbfb;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+.workflow__form-edit-name {
+    display: inline-block;
+    padding-left: 32px;
+    margin-right: 24px;
+    background: url(../../img/pages/workflow/workflow__form-edit-name.svg) 0 0 no-repeat;
+    font: 14px/24px 'Noto Sans';
+}
+
+@media all and (max-width: 769px) {
+	.workflow__form .input__search,
+	.workflow__form .select_wrap {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	.workflow__form .input__search,
+	.workflow__form .select_wrap .default_option {
+		border-radius: 4px;
+		border: 1px solid #bac2c8;
+	}
+	.workflow__form .input__search-btn {
+		width: 100% !important;
+		border-radius: 4px;
+	}
+	.workflow__check {
+		margin-bottom: 8px;
+		float: none;
+		display: block;
+	}
+	.workflow__calendar {
+		width: 100% !important;
+	}
+	.workflow__submit {
+		float: none;
+	}
+	.workflow__doc {
+		display: block;
+	}
+	.workflow__doc-col {
+		display: none;
+	}
+}

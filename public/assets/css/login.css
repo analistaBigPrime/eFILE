@@ -1,0 +1,83 @@
+.login {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background: #e5ecef;
+}
+
+.auth {
+    margin: 0;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 24px 112px 48px;
+}
+.terms {
+    margin: 0;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 24px 112px 48px;
+}
+.auth__logo {
+    text-align: center;
+}
+.auth__title {
+    font: bold 24px/40px 'Montserrat';
+    color: #171d25;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.auth__form {
+    width: 336px;
+}
+.auth__submit {
+    background: #81b346;
+}
+.recover__submit {
+    background: #2277b7;   
+}
+.password-control {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    z-index: 10;
+    cursor: pointer;
+}
+.terms__submit-viewport {
+    position: absolute;
+    text-align: center;
+    bottom: -112px;
+    left: 0;
+    right: 0;
+}
+.terms__submit {
+    display: inline-block;
+}
+
+@media all and (max-width: 769px) {
+    body {
+        background: #fff;
+    }
+    .auth,
+    .terms {
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        padding: 24px;
+    }
+}

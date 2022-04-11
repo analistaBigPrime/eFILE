@@ -1,0 +1,35 @@
+.page__reports .page__title {
+    background-image: url(../../img/pages/reports/page__title.svg);
+}
+.reports__general {
+    width: 300px !important;
+    margin-right: 16px;
+}
+.reports__calendar {
+    width: 300px !important;
+}
+.reports__submit {
+    float: left;
+    margin-top: 24px;
+    padding-right: 40px !important;
+    width: auto !important;
+    background-color: #81b346;    
+}
+.reports__table-btns {
+    display: flex;
+    float: left;
+}
+
+@media all and (max-width: 769px) {
+    .reports__general,
+    .number {
+        width: 100% !important;
+        margin-bottom: 16px;
+    }
+    .reports__calendar {
+        width: 100% !important;
+    }
+    .reports__submit {
+        margin-top: 0;
+    }
+}

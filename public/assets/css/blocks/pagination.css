@@ -1,0 +1,111 @@
+.pagination-head {
+    height: 24px;
+    margin: 16px 0;
+    text-align: right;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.pagination-head__pages {
+    margin-right: 8px;
+}
+.pagination-head__btn {
+    width: 24px;
+    height: 24px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.pagination-head__btn_type_prev {
+    background: #fff url(../../img/blocks/pagination/pagination-head__btn_type_prev.svg) 50% 50% no-repeat;
+}
+.pagination-head__btn_type_next {
+    background: #fff url(../../img/blocks/pagination/pagination-head__btn_type_next.svg) 50% 50% no-repeat;   
+}
+.pagination-count {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 16px 24px;
+}
+.pagination-count__text-main {
+    font: 14px/40px 'Noto Sans';
+    color: #171d25;
+    width: 100%;
+}
+.pagination-count__label {
+    font: 14px/40px 'Noto Sans';
+    color: #171d25;    
+}
+.pagination-count__select {
+    margin: 0 16px;
+}
+
+.pagination-count__select .select_wrap .default_option {
+    min-width: 90px;
+}
+.pagination-count__text {
+    font: 14px/40px 'Noto Sans';
+    color: #171d25;
+}
+.pagination {
+    display: flex;
+    padding: 16px 0;
+}
+.pagination__count {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+.pagination__btn {
+    width: 32px;
+    text-align: center;
+    font: 14px/30px 'Noto Sans';
+    color: #92a1ae;
+    float: left;
+    margin: 0 8px 0 0;
+    border: 1px solid #dfe3e5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.pagination__btn:hover {
+    border: 1px solid #2277b7;
+    color: #414e5c;
+}
+.pagination__btn-active {
+    border: 1px solid #2277b7;
+    background: #2277b7;
+    color: #fff !important;
+}
+
+@media all and (max-width: 769px) {
+    .pagination-count {
+        display: block;
+        position: relative;
+        z-index: 500;
+    }
+    .pagination-count__text-main {
+        line-height: 16px;
+        margin-bottom: 16px;
+    }
+    .box__cols {
+        display: block;
+    }
+    .pagination-count__label {
+        float: left;
+    }
+    .pagination-count__select {
+        float: left;
+        margin: 0 16px;
+    }
+}
+@media all and (max-width: 481px) {
+    .pagination__counts {
+        width: 200px;
+    }
+}
+@media all and (max-width: 321px) {
+    .pagination__counts {
+        width: 120px;
+    }
+}

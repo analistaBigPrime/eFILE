@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Hairline'), local('Montserrat-Hairline'), url('../fonts/montserrathairline.woff2') format('woff2'), url('../fonts/montserrathairline.woff') format('woff'), url('../fonts/montserrathairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Light'), local('Montserrat-Light'), url('../fonts/montserratlight.woff2') format('woff2'), url('../fonts/montserratlight.woff') format('woff'), url('../fonts/montserratlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), local('Montserrat-Regular'), url('../fonts/montserrat.woff2') format('woff2'), url('../fonts/montserrat.woff') format('woff'), url('../fonts/montserrat.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('../fonts/montserratbold.woff2') format('woff2'), url('../fonts/montserratbold.woff') format('woff'), url('../fonts/montserratbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Black'), local('Montserrat-Black'), url('../fonts/montserratblack.woff2') format('woff2'), url('../fonts/montserratblack.woff') format('woff'), url('../fonts/montserratblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: local('Noto Sans'), local('NotoSans'), url('../fonts/notosans.woff2') format('woff2'), url('../fonts/notosans.woff') format('woff'), url('../fonts/notosans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: local('Noto Sans Italic'), local('NotoSans-Italic'), url('../fonts/notosansitalic.woff2') format('woff2'), url('../fonts/notosansitalic.woff') format('woff'), url('../fonts/notosansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'), url('../fonts/notosansbold.woff2') format('woff2'), url('../fonts/notosansbold.woff') format('woff'), url('../fonts/notosansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: local('Noto Sans Bold Italic'), local('NotoSans-BoldItalic'), url('../fonts/notosansbolditalic.woff2') format('woff2'), url('../fonts/notosansbolditalic.woff') format('woff'), url('../fonts/notosansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+h1 {
+    font: bold 24px/32px 'Montserrat';
+    color: #171d25;
+    margin: 0;
+}
+p {
+    margin: 0 0 16px;
+    font: 14px/24px 'Noto Sans';
+    color: #414e5c;
+}
+.font_size_16 {
+    font: 16px/24px 'Noto Sans';
+}
+.text_align_r {
+    text-align: right;
+}
+.text_align_c {
+    text-align: center;
+}
+.text_color_gray {
+    color: #92a1ae;
+}
+a {
+    color: #117dce;
+    text-decoration: underline;
+}

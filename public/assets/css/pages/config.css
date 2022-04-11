@@ -1,0 +1,19 @@
+.page__config .page__title {
+    background-image: url(../../img/pages/config/page__title.svg);
+}
+.config__form {
+	width: 80%;
+	margin: 32px auto 48px;
+	display: block;
+}
+.config__submit {
+	margin: 24px 0 0;
+	text-align: right;
+}
+.config__submit-btn {
+	width: auto !important;
+}
+.config__select {
+	width: 100%;
+	margin-bottom: 16px;
+}

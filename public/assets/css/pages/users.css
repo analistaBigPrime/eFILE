@@ -1,0 +1,116 @@
+.page__users .page__title {
+    background-image: url(../../img/pages/users/page__title.svg);
+}
+tr td:last-child {
+    width: auto;
+}
+.users__form {
+	margin: 16px 0 24px;
+	display: inline-block;
+}
+.users__form .select_wrap {
+    display: block;
+    float: left;
+}
+.users__form .select_wrap .default_option {
+	border-radius: 4px;
+    min-width: 225px;
+	box-sizing: border-box;
+}
+.users__label {
+	display: block;
+	font-size: 14px;
+}
+.users__form .input__search {
+    display: block;
+    float: left;
+	width: 225px;
+	border-radius: 0;
+	margin: 0;
+	border-left: 0;
+	box-sizing: border-box;
+}
+.users__form .input__search-btn {
+	background-color: #81b346;
+	border-radius: 0 4px 4px 0;
+    display: block;
+    float: left;
+    position: relative;
+    padding-right: 40px;
+    width: auto !important;
+    font-weight: bold;
+}
+.users__form-upload {
+	width: 80%;
+	display: block;
+	margin: 24px auto;
+}
+.button__users-xls {
+	margin-left: 16px;
+}
+
+.users-new__form {
+	width: 60%;
+	margin: 32px auto 48px;
+	display: block;
+}
+.users-new__code {
+	display: block;
+	float: left;
+	width: 140px;
+}
+.users-new__code .select_wrap {
+	width: 140px;
+}
+.users-new__phone {
+	width: calc(100% - 140px);
+	box-sizing: border-box;
+	padding-left: 16px;
+	display: inline-block;
+}
+.users-new__form .submit__btn {
+	flex-grow: 0;
+	margin-right: 16px;
+}
+.users-new__submit {
+	background-color: #81b346;
+	width: auto !important;
+}
+
+.users-data__box {
+	padding: 16px 40px;
+}
+.users-data__head {
+	padding: 0 0 16px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dfe3e5;
+	margin: 0 0 40px;
+}
+.users-new__check {
+	margin: 24px 0 0 0;
+	padding: 0;
+}
+.user__confirm {
+	padding: 48px 96px;
+}
+
+@media all and (max-width: 769px) { 
+	.select_wrap,
+	.users__form .select_wrap .default_option,
+	.users__form .input__search {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	.users__form .input__search {
+		border:  1px solid #bac2c8;
+		border-radius: 4px;
+	}
+	.input__search-btn {
+		border-radius: 4px !important;
+	}
+	.users-data__head a {
+		display: block;
+		margin: 0 0 16px;
+		text-align: center;
+	}
+}

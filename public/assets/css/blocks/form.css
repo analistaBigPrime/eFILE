@@ -1,0 +1,360 @@
+.input {
+    margin-bottom: 16px;
+    position: relative;
+}
+.input_with_btn {
+    display: flex;
+}
+.input_with_btn input[type="text"] {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+.input_with_btn input[type="submit"] {
+    border-radius: 0 4px 4px 0;
+    background-color: #dfe3e5;
+    transition: background 0.2s ease;
+}
+.input_with_btn input[type="submit"]:hover {
+    background-color: #91cb4c;    
+}
+.submit {
+    width: 100%;
+    padding-top: 32px;
+    display: flex;
+}
+.submit__link,
+.submit__btn {
+    flex-grow: 1;
+}
+.submit__link {
+    line-height: 40px;
+}
+label {
+    width: 100%;
+    color: #414e5c;
+    font: 16px/24px 'Noto Sans';
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+}
+input {
+    position: relative;
+}
+input[type="password"],
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    border: 1px solid #bac2c8;
+    border-radius: 4px;
+    padding: 7px 44px 7px 12px;
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 24px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    padding: 7px 40px 7px 16px;
+}
+textarea:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    border-color: #339ade;
+    outline: none;
+}
+input[type="submit"] {
+    width: 100%;
+    font: 14px/24px 'Noto Sans';
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #81b346;
+    transition: background 0.2s ease;
+}
+input[type="submit"]:hover {
+    background-color: #91cb4c;    
+}
+input[type="checkbox"] {
+    position: relative;
+    z-index: -1;
+    opacity: 0;
+    position: absolute;
+}
+input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type="checkbox"]+label::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 4px;
+    left: -16px;
+    border: 1px solid #bac2c8;
+    background: #fff;
+    border-radius: 4px;
+}
+input[type="checkbox"]:checked+label::before {
+    background: #fff url('../../img/blocks/input/checkbox__checked.svg') 46% 53% no-repeat;
+}
+.select__multiple {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #bac2c8;
+}
+textarea {
+    width: 100%;
+    height: 96px;
+    border-radius: 4px;
+    border: 1px solid #bac2c8;
+    padding: 0;
+    padding: 16px 12px;
+    box-sizing: border-box;
+}
+input {
+    outline: none;
+}
+.input__search-btn {
+    background-repeat:  no-repeat;
+    background-position: calc(100% - 8px) 50%;
+    background-image: url('../../img/blocks/input/input__search-btn.svg');   
+}
+
+.error {
+    display: none;
+    font: 12px/16px 'Noto Sans';
+    color: #f00;
+}
+.input__error .error {
+    display: block;
+}
+.input__error input[type="password"],
+.input__error input[type="text"],
+.input__error input[type="password"]:focus,
+.input__error input[type="text"]:focus {
+    border: 1px solid #ec4646;
+    background-color: #fff9f9;
+}
+.input__ico {
+    background-position: right 13px top 9px;
+    background-repeat: no-repeat;
+}
+.input__ico-login {
+    background-image:  url('../../img/blocks/input/input__ico-login.svg');
+}
+.input__ico-login:focus {
+    background-image: url('../../img/blocks/input/input__ico-login-focus.svg');
+}
+.input__error .input__ico-login,
+.input__error .input__ico-login:focus {
+    background-image: url('../../img/blocks/input/input__ico-login-error.svg');
+}
+.input__ico-password {
+    background-image:  url('../../img/blocks/input/input__ico-password.svg');
+}
+.input__ico-password:focus {
+    background-image: url('../../img/blocks/input/input__ico-password-focus.svg');
+}
+
+.input__error .input__ico-password,
+.input__error .input__ico-password:focus {
+    background-image: url('../../img/blocks/input/input__ico-password-error.svg');    
+}
+.input__ico-password-view {
+    background-image:  url('../../img/blocks/input/input__ico-password-view.svg');
+}
+.input__ico-password-view:focus {
+    background-image: url('../../img/blocks/input/input__ico-password-view-focus.svg');
+}
+.input__error .input__ico-password-view,
+.input__error .input__ico-password-view:focus {
+    background-image: url('../../img/blocks/input/input__ico-password-view-error.svg');    
+}
+.input__ico-email {
+    background-image:  url('../../img/blocks/input/input__ico-email.svg');
+}
+.input__ico-email:focus {
+    background-image: url('../../img/blocks/input/input__ico-email-focus.svg');
+}
+.input__error .input__ico-email,
+.input__error .input__ico-email:focus {
+    background-image: url('../../img/blocks/input/input__ico-email-error.svg');    
+}
+
+/* drag and drop - "hover" */
+.upload-file__input {
+    visibility: hidden;
+    display: none;
+}
+.upload-file__title {
+    margin-bottom: 0;
+}
+.upload-file__label {
+    display: block;
+    background: #fafbfb;
+    border: 1px dashed #b1bfcf;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    cursor:  pointer;
+}
+.upload-file__text-ico,
+.upload-file__text {
+    font: 14px/16px 'Noto Sans';
+    display: block;
+    padding-left: 36px;
+}
+.upload-file__text-ico {
+    color: #92a1ae;
+    background: url(../../img/blocks/form/upload-file__ico.svg) 0 0 no-repeat;
+    margin-bottom: 8px;
+}
+.upload-file__text {
+    color: #117dce;
+    text-decoration: underline;
+}
+.upload-file__block {
+    clear: both;
+    display: block;
+    margin-bottom: 16px;
+}
+.upload-file__download {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    background: #e5ecef url(../../img/blocks/form/upload-file__download.svg) 50% 50% no-repeat;
+}
+.upload-file__name {
+    font: bold 14px/24px 'Noto Sans';
+    float: left;
+    margin-right: 16px;
+    padding-left: 40px;
+    background: url(../../img/blocks/form/upload-file__name.svg) 0 4px no-repeat;
+}
+.upload-file__size {
+    font-weight: normal;
+    color: #92a1ae;
+}
+
+
+
+.upload-file__label.hover .upload-file__text {
+    color: #ffb300;
+}
+.upload-file__icon {
+    background: url(../../img/blocks/form/upload-file__icon.svg) 0 50% no-repeat;
+
+}
+.upload-file__label.hover .upload-file__icon path {
+    fill: #ffb300;
+}
+.upload-file__label.hover {
+    border: 2px dashed #ffb300;
+}
+
+/* drag and drop - ошибка */
+.upload-file__label.error .upload-file__text {
+    color: #d32f2f;
+}
+.upload-file__label.error .upload-file__icon path {
+    fill: #d32f2f;
+}
+.upload-file__label.error {
+    border: 2px dashed #d32f2f;
+}
+
+/* drag and drop - файл(ы) успешно перетянут(ы) */
+.upload-file__label.drop .upload-file__text {
+    color: #388e3c;
+}
+.upload-file__label.drop .upload-file__icon path {
+    fill: #388e3c;
+}
+.upload-file__label.drop {
+    border: 2px dashed #388e3c;
+}
+
+.form__notify {
+    display: block;
+    margin-bottom: 16px;
+}
+.form__notify-success,
+.form__notify-error {
+    display: block;
+    font: 14px/24px 'Noto Sans';
+    padding-left: 24px;
+}
+.form__notify-error {
+    color: #df7171;
+    background: url(../../img/blocks/form/form__notify-error.svg) 0 50% no-repeat;
+}
+.form__notify-success {
+    color: #81b346;
+    background: url(../../img/blocks/form/form__notify-success.svg) 0 50% no-repeat;
+}
+.number-wrap {
+    display: inline-block;
+    margin: 0 0 24px 0;
+}
+.calendar {
+    background: #fff url(../../img/blocks/form/calendar.svg) 8px 50% no-repeat;
+    padding-left: 40px !important;
+}
+.calendar:disabled {
+    background-color: #f7f7f7;
+    color: #757575;
+}
+.number {
+    float: left;
+    width: 190px;
+    margin-right: 16px;
+}
+.number-input {
+    position: relative;
+}
+.number input[type="number"] {
+    border: 1px solid #bac2c8;
+    border-radius: 4px;
+    padding: 7px 44px 7px 24px;
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 24px;
+}
+.number input[type="number"]::-webkit-outer-spin-button,
+.number input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+.number-down,
+.number-up {
+    position: absolute;
+    right: 0;
+    width: 36px;
+    height: 20px;
+    padding: 0;
+    display: block;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 500;
+}
+.number-down {
+    bottom: 0;
+    background: url(../../img/blocks/form/number-down.svg) 50% 30% no-repeat;
+}
+.number-up {
+    top: 0;
+    background: url(../../img/blocks/form/number-up.svg) 50% 70% no-repeat;
+}

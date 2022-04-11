@@ -1,0 +1,84 @@
+.profile__form {
+	width: 80%;
+	margin: 16px auto 24px;
+}
+.profile__label {
+	display: block;
+	font-size: 14px;
+}
+.profile__form .input__search {
+    display: block;
+    float: left;
+	width: 225px;
+	border-radius: 0;
+	margin: 0;
+	border-left: 0;
+	box-sizing: border-box;
+}
+.profile__form .input__search-btn {
+	background-color: #81b346;
+	border-radius: 0 4px 4px 0;
+    display: block;
+    float: left;
+    position: relative;
+    padding-right: 40px;
+    width: auto !important;
+    font-weight: bold;
+}
+.profile__form-upload {
+	width: 80%;
+	display: block;
+	margin: 24px auto;
+}
+.profile__table-btns {
+	display: flex;
+	float: left;
+}
+.profile__code {
+	display: block;
+	float: left;
+	width: 140px;
+}
+.profile__code .select_wrap {
+	width: 140px;
+}
+.profile__phone {
+	width: calc(100% - 140px);
+	box-sizing: border-box;
+	padding-left: 16px;
+	display: inline-block;
+}
+.profile__lang-wrap {
+	display: block;
+	margin-bottom: 24px;
+}
+.profile__lang .select_wrap,
+.profile__lang {
+	width: 140px;
+}
+.profile__autograph {
+	display: inline-block;
+	background: #fafbfb;
+    border: 1px dashed #b1bfcf;
+    padding: 16px 32px;
+}
+
+.password-control {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    z-index: 10;
+    cursor: pointer;
+}
+.profile__submit {
+	width: auto !important;
+}
+
+@media all and (max-width: 769px) {
+	.profile__autograph img {
+		width: 100%;
+	}
+}

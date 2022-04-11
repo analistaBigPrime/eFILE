@@ -1,0 +1,24 @@
+<svg width="19" height="24" viewBox="0 0 19 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="17.372%" y1="-6.51%" x2="82.628%" y2="106.51%" id="mwv8v6m8ja">
+            <stop stop-color="#18884F" offset="0%"/>
+            <stop stop-color="#117E43" offset="50%"/>
+            <stop stop-color="#0B6631" offset="100%"/>
+        </linearGradient>
+        <path d="M12.463 13.504v4.453L10.89 16.4a.504.504 0 0 0-.71 0l-.042.043a.504.504 0 0 0 0 .714L13 20l2.862-2.843a.504.504 0 0 0 0-.714l-.043-.043a.504.504 0 0 0-.71 0l-1.572 1.557v-4.453a.504.504 0 0 0-.504-.504h-.066a.504.504 0 0 0-.504.504zM9.291 21h7.418c.16 0 .291.13.291.29v.42c0 .16-.13.29-.29.29H9.29a.29.29 0 0 1-.29-.29v-.42c0-.16.13-.29.29-.29z" id="jsfr5kw5wb"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M13.722 0 19 5v17a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h11.722zM14 1.64V4a1 1 0 0 0 1 1h2.546L14 1.64zM18 22V6h-3a2 2 0 0 1-2-2V1H2a1 1 0 0 0-1 1v20a1 1 0 0 0 1 1h15a1 1 0 0 0 1-1z" fill="#DDE2E7"/>
+        <g fill-rule="nonzero">
+            <path d="M.75 0h7.5A.75.75 0 0 1 9 .75v7.5a.75.75 0 0 1-.75.75H.75A.75.75 0 0 1 0 8.25V.75A.75.75 0 0 1 .75 0z" fill="url(#mwv8v6m8ja)" transform="translate(3 3)"/>
+            <path d="M5.322 9.937 6.9 7.493l-1.445-2.43h1.162l.789 1.554c.073.147.123.257.15.33h.01l1.007-1.884H9.64L8.158 7.48l1.52 2.457H8.542l-.911-1.706c.766.061-.994.061-.228 0l-.786.721c-.571-.059.743-.674.773-1.247.029-.574.792.467.22.526l-.938 1.713-1.35-.007z" fill="#FFF"/>
+        </g>
+        <mask id="70373yo7qc" fill="#fff">
+            <use xlink:href="#jsfr5kw5wb"/>
+        </mask>
+        <use fill="#000" xlink:href="#jsfr5kw5wb"/>
+        <g mask="url(#70373yo7qc)" fill="#7C878F">
+            <path d="M0 0h19v24H0z"/>
+        </g>
+    </g>
+</svg>

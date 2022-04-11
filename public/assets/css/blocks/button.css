@@ -1,0 +1,134 @@
+.button {
+    font: 14px/24px 'Noto Sans';
+    color: #414e5c;
+    padding: 7px 15px;
+    border: 1px solid #dfe3e5;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    background-color: #fff;
+}
+.button:disabled {
+    cursor: default;
+}
+.button:last-child {
+    margin-right: 0 ;
+}
+.button_type_green {
+    background-color: #81b346;
+    color: #fff;
+    padding: 8px 16px;
+    border: 0;
+}
+.button_type_blue {
+    background-color: #2277b7;
+    color: #fff;
+    padding: 8px 16px;
+    border: 0;
+}
+.button_type_red {
+    background-color: #df7171;
+    color: #fff;
+    padding: 8px 16px;
+    border: 0;
+}
+.button_with_ico {
+    padding-left: 48px;
+    background-repeat: no-repeat;
+    background-position: 16px 50%;
+}
+.button_without_border {
+    border: none;
+}
+.button:hover {
+    background-color: #91cb4c;
+    color: #fff;
+}
+.button_type_blue:hover {
+    background-color: #2f89cc;
+}
+.button_type_red:hover {
+    background-color: #f38080;
+}
+.button:disabled {
+    background-color: transparent;
+}
+.button_type_green:disabled {
+    background-color: #81b346;
+}
+.button_type_blue:disabled {
+    background-color: #2277b7;
+}
+.button_type_red:disabled {
+    background-color: #df7171;
+}
+.button_ico_conf {
+    background-image: url(../../img/blocks/button/button_ico_conf.svg); 
+}
+.button.button_ico_conf:hover {
+    background-image: url(../../img/blocks/button/button_ico_conf-white.svg); 
+}
+.button_ico_history {
+    background-image: url(../../img/blocks/button/button_ico_history.svg);  
+}
+.button.button_ico_history:hover {
+    background-image: url(../../img/blocks/button/button_ico_history-white.svg); 
+}
+.button_ico_download {
+    background-image: url(../../img/blocks/button/button_ico_download.svg); 
+}
+.button.button_ico_download:hover,
+.button_ico_download-white {
+    background-image: url(../../img/blocks/button/button_ico_download-white.svg); 
+}
+.button.button_ico_create:hover,
+.button_ico_create-white {
+    background-image: url(../../img/blocks/button/button_ico_create-white.svg);
+}
+.button_ico_general {
+    background-image: url(../../img/blocks/button/button_ico_general.svg);
+}
+.button.button_ico_general:hover {
+    background-image: url(../../img/blocks/button/button_ico_general-white.svg); 
+}
+.button.button_ico_check:hover,
+.button_ico_check-white {
+    background-image: url(../../img/blocks/button/button_ico_check-white.svg);
+}
+.button_ico_sing {
+    background-image: url(../../img/blocks/button/button_ico_sing.svg);
+}
+.button.button_ico_sing:hover,
+.button_ico_sing-white {
+    background-image: url(../../img/blocks/button/button_ico_sing-white.svg);
+}
+.button_ico_back {
+    background-image: url(../../img/blocks/button/button_ico_back.svg);  
+}
+.button.button_ico_back:hover {
+    background-image: url(../../img/blocks/button/button_ico_back-white.svg); 
+}
+.button_ico_add {
+    background-image: url(../../img/blocks/button/button_ico_add.svg);  
+}
+.button.button_ico_add:hover {
+    background-image: url(../../img/blocks/button/button_ico_add-white.svg); 
+}
+.button.button_ico_new:hover,
+.button_ico_new-white {
+    background-image: url(../../img/blocks/button/button_ico_new-white.svg);
+}
+.button.button_ico_edit:hover,
+.button_ico_edit-white {
+    background-image: url(../../img/blocks/button/button_ico_edit-white.svg);
+}
+.button_ico_xls {
+    background-image: url(../../img/blocks/button/button_ico_xls.svg);
+    background-color: #fff;
+}
+.button_ico_user {
+    background-image: url(../../img/blocks/button/button_ico_user.svg);
+}
